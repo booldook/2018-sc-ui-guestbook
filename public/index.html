@@ -14,9 +14,38 @@
 		<script defer src="/__/firebase/5.5.8/firebase-storage.js"></script>
 		<script defer src="/__/firebase/init.js"></script>
 		<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script defer src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
 		<script defer src="js/main.js"></script>
 	</head>
 	<body>
-		
+		<section class="login">
+			<div>
+				<h3>방명록 연습</h3>
+				<button class="w3-button w3-red">
+					<i class="fa fa-google"></i> 구글로그인
+				</button>
+			</div>
+		</section>
+		<section class="wrap">
+			<header class="clear w3-padding w3-teal">
+				<div class="fl">방명록</div>
+				<div class="fr"><button class="w3-button w3-red logout">로그아웃</button></div>
+			</header>
+			<ul class="lists">
+				<li>
+					<h4>글입니다.</h4>
+					<h5>booldook@gmail.com</h5>
+					<button class="rev_icon"><i class="fa fa-trash"></i></button>
+				</li>
+			</ul>
+			<article class="writer">
+				<div>
+					<textarea id="content" placeholder="방명록을 작성해 주세요."></textarea>
+				</div>
+				<div>
+					<button id="bt_wr" class="w3-button w3-indigo">저장</button>
+				</div>
+			</article>
+		</section>
 	</body>
 </html>

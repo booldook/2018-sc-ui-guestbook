@@ -1,0 +1,25 @@
+[debug] [2018-11-15T05:24:51.528Z] ----------------------------------------------------------------------
+[debug] [2018-11-15T05:24:51.528Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-11-15T05:24:51.528Z] CLI Version:   5.1.1
+[debug] [2018-11-15T05:24:51.528Z] Platform:      win32
+[debug] [2018-11-15T05:24:51.528Z] Node Version:  v8.12.0
+[debug] [2018-11-15T05:24:51.528Z] Time:          Thu Nov 15 2018 14:24:51 GMT+0900 (대한민국 표준시)
+[debug] [2018-11-15T05:24:51.528Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-15T05:24:51.559Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-15T05:24:51.559Z] > authorizing via signed-in user
+[debug] [2018-11-15T05:24:51.559Z] [iam] checking project booldook-guestbook for permissions ["firebase.projects.get"]
+[debug] [2018-11-15T05:24:51.575Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/booldook-guestbook:testIamPermissions  
+
+[debug] [2018-11-15T05:24:52.933Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-15T05:24:52.937Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/booldook-guestbook  
+ 
+[debug] [2018-11-15T05:24:54.146Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\fbroot\guestbook'...
+[info] 
+[debug] [2018-11-15T05:24:54.162Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/590920722293/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-15T05:24:55.075Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
